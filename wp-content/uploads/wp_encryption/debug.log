@@ -1,0 +1,37 @@
+<b>5.7.15  SINGLE DOMAIN SSL 0 - http://www.viciddcare.info</b>
+Domain covered:
+["www.viciddcare.info"]
+
+[12-05-2022 03:24:38] :
+No account found, attempting to create account.
+
+[12-05-2022 03:24:39] :
+LEClient finished constructing
+
+[12-05-2022 03:24:39] :
+No order found for 'www.viciddcare.info'. Creating new order.
+
+[12-05-2022 03:24:41] :
+Created order for 'www.viciddcare.info'.
+
+Offering manual verification procedure. 
+
+HTTP challenge file (www.viciddcare.info/.well-known/acme-challenge/R3Ymv5-59c6NWB4rk8hyLa6oTA6W1pwh-cmwzkwo2TA) checked locally - found invalid ()
+Local check - All HTTP challenges verified
+
+[12-05-2022 04:04:58] :
+LEClient finished constructing
+
+[12-05-2022 04:04:59] :
+Order object is {"status":"pending","expires":"2022-05-19T03:24:40Z","identifiers":[{"type":"dns","value":"www.viciddcare.info"}],"authorizations":["https:\/\/acme-v02.api.letsencrypt.org\/acme\/authz-v3\/107650129026"],"finalize":"https:\/\/acme-v02.api.letsencrypt.org\/acme\/finalize\/539636346\/87892678266"}
+
+Forced HTTP verification
+Finalizing the order
+[12-05-2022 04:05:08] :
+Order for 'www.viciddcare.info' finalized.
+
+Getting SSL certificates
+[12-05-2022 04:05:08] :
+Certificate for 'www.viciddcare.info' saved
+
+<h2>SSL Certificate generated successfully!</h2>
